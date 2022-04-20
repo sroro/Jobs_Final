@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D13A4512810619500BEC7B5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4D13A4502810619500BEC7B5 /* FirebaseAuth */; };
 		4D1D180928006A1F00A2DD4A /* JobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D180828006A1F00A2DD4A /* JobTableViewCell.xib */; };
 		4D1D180B280078CF00A2DD4A /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D180A280078CF00A2DD4A /* JobTableViewCell.swift */; };
 		4D1D180E280453A800A2DD4A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D180D280453A800A2DD4A /* SignUpViewController.swift */; };
@@ -14,10 +15,13 @@
 		4D33527D280F0009008106E3 /* ProfielViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33527C280F0009008106E3 /* ProfielViewModel.swift */; };
 		4D335280280F0025008106E3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33527F280F0025008106E3 /* SignInViewModel.swift */; };
 		4D335283280F0036008106E3 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D335282280F0036008106E3 /* SignUpViewModel.swift */; };
+		4D33528A28103DD5008106E3 /* ProfileInformation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D33528828103DD5008106E3 /* ProfileInformation.xcdatamodeld */; };
+		4D33528C2810401C008106E3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33528B2810401C008106E3 /* CoreDataStack.swift */; };
+		4D33528E28104448008106E3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33528D28104448008106E3 /* CoreDataManager.swift */; };
+		4D33529028104859008106E3 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D33528F28104859008106E3 /* GoogleService-Info-2.plist */; };
 		4D3766F227FB0C4C00081E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766F127FB0C4C00081E7B /* AppDelegate.swift */; };
 		4D3766F427FB0C4C00081E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */; };
 		4D3766F927FB0C4C00081E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766F727FB0C4C00081E7B /* Main.storyboard */; };
-		4D3766FC27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766FA27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld */; };
 		4D3766FE27FB0C4D00081E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766FD27FB0C4D00081E7B /* Assets.xcassets */; };
 		4D37670127FB0C4D00081E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766FF27FB0C4D00081E7B /* LaunchScreen.storyboard */; };
 		4D9927BA2806FA71002A223B /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9927B92806FA71002A223B /* ProfilViewController.swift */; };
@@ -31,11 +35,14 @@
 		4D33527C280F0009008106E3 /* ProfielViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfielViewModel.swift; sourceTree = "<group>"; };
 		4D33527F280F0025008106E3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		4D335282280F0036008106E3 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4D33528928103DD5008106E3 /* ProfileInformation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProfileInformation.xcdatamodel; sourceTree = "<group>"; };
+		4D33528B2810401C008106E3 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		4D33528D28104448008106E3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4D33528F28104859008106E3 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		4D3766EE27FB0C4C00081E7B /* Jobs_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobs_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3766F127FB0C4C00081E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D3766F827FB0C4C00081E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D3766FB27FB0C4C00081E7B /* Jobs_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobs_Final.xcdatamodel; sourceTree = "<group>"; };
 		4D3766FD27FB0C4D00081E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D37670027FB0C4D00081E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D37670227FB0C4D00081E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D13A4512810619500BEC7B5 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +119,6 @@
 				4D37670C27FB0CD200081E7B /* View */,
 				4D37670927FB0C8000081E7B /* Model */,
 				4D37670827FB0C6800081E7B /* SettingsFiles */,
-				4D3766FA27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld */,
 			);
 			path = Jobs_Final;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 			children = (
 				4D3766F127FB0C4C00081E7B /* AppDelegate.swift */,
 				4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */,
+				4D33528F28104859008106E3 /* GoogleService-Info-2.plist */,
 				4D37670227FB0C4D00081E7B /* Info.plist */,
 			);
 			path = SettingsFiles;
@@ -137,6 +145,9 @@
 		4D37670A27FB0CA800081E7B /* coreData */ = {
 			isa = PBXGroup;
 			children = (
+				4D33528828103DD5008106E3 /* ProfileInformation.xcdatamodeld */,
+				4D33528B2810401C008106E3 /* CoreDataStack.swift */,
+				4D33528D28104448008106E3 /* CoreDataManager.swift */,
 			);
 			path = coreData;
 			sourceTree = "<group>";
@@ -162,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D37670527FB0C4D00081E7B /* Build configuration list for PBXNativeTarget "Jobs_Final" */;
 			buildPhases = (
+				C6F227C945DEB46C4AD6BAED /* [CP] Check Pods Manifest.lock */,
 				4D3766EA27FB0C4C00081E7B /* Sources */,
 				4D3766EB27FB0C4C00081E7B /* Frameworks */,
 				4D3766EC27FB0C4C00081E7B /* Resources */,
@@ -171,6 +183,9 @@
 			dependencies = (
 			);
 			name = Jobs_Final;
+			packageProductDependencies = (
+				4D13A4502810619500BEC7B5 /* FirebaseAuth */,
+			);
 			productName = Jobs_Final;
 			productReference = 4D3766EE27FB0C4C00081E7B /* Jobs_Final.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 4D3766E527FB0C4C00081E7B;
+			packageReferences = (
+				4D13A44F2810619500BEC7B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4D3766EF27FB0C4C00081E7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -213,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D33529028104859008106E3 /* GoogleService-Info-2.plist in Resources */,
 				4D1D180928006A1F00A2DD4A /* JobTableViewCell.xib in Resources */,
 				4D37670127FB0C4D00081E7B /* LaunchScreen.storyboard in Resources */,
 				4D3766FE27FB0C4D00081E7B /* Assets.xcassets in Resources */,
@@ -221,6 +240,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6F227C945DEB46C4AD6BAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jobs_Final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D3766EA27FB0C4C00081E7B /* Sources */ = {
@@ -232,9 +276,11 @@
 				4D335283280F0036008106E3 /* SignUpViewModel.swift in Sources */,
 				4D9927BA2806FA71002A223B /* ProfilViewController.swift in Sources */,
 				4D1D1810280455C200A2DD4A /* SignInViewController.swift in Sources */,
-				4D3766FC27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld in Sources */,
 				4D335280280F0025008106E3 /* SignInViewModel.swift in Sources */,
+				4D33528E28104448008106E3 /* CoreDataManager.swift in Sources */,
+				4D33528C2810401C008106E3 /* CoreDataStack.swift in Sources */,
 				4D3766F427FB0C4C00081E7B /* SceneDelegate.swift in Sources */,
+				4D33528A28103DD5008106E3 /* ProfileInformation.xcdatamodeld in Sources */,
 				4D33527D280F0009008106E3 /* ProfielViewModel.swift in Sources */,
 				4D1D180B280078CF00A2DD4A /* JobTableViewCell.swift in Sources */,
 			);
@@ -457,14 +503,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		4D13A44F2810619500BEC7B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D13A4502810619500BEC7B5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D13A44F2810619500BEC7B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		4D3766FA27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld */ = {
+		4D33528828103DD5008106E3 /* ProfileInformation.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4D3766FB27FB0C4C00081E7B /* Jobs_Final.xcdatamodel */,
+				4D33528928103DD5008106E3 /* ProfileInformation.xcdatamodel */,
 			);
-			currentVersion = 4D3766FB27FB0C4C00081E7B /* Jobs_Final.xcdatamodel */;
-			path = Jobs_Final.xcdatamodeld;
+			currentVersion = 4D33528928103DD5008106E3 /* ProfileInformation.xcdatamodel */;
+			path = ProfileInformation.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
