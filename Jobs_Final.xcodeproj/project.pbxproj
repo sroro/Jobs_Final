@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1D180928006A1F00A2DD4A /* JobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D180828006A1F00A2DD4A /* JobTableViewCell.xib */; };
+		4D1D180B280078CF00A2DD4A /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D180A280078CF00A2DD4A /* JobTableViewCell.swift */; };
+		4D1D180E280453A800A2DD4A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D180D280453A800A2DD4A /* SignUpViewController.swift */; };
+		4D1D1810280455C200A2DD4A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D180F280455C200A2DD4A /* SignInViewController.swift */; };
+		4D33527D280F0009008106E3 /* ProfielViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33527C280F0009008106E3 /* ProfielViewModel.swift */; };
+		4D335280280F0025008106E3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33527F280F0025008106E3 /* SignInViewModel.swift */; };
+		4D335283280F0036008106E3 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D335282280F0036008106E3 /* SignUpViewModel.swift */; };
 		4D3766F227FB0C4C00081E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766F127FB0C4C00081E7B /* AppDelegate.swift */; };
 		4D3766F427FB0C4C00081E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */; };
-		4D3766F627FB0C4C00081E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766F527FB0C4C00081E7B /* ViewController.swift */; };
 		4D3766F927FB0C4C00081E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766F727FB0C4C00081E7B /* Main.storyboard */; };
 		4D3766FC27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D3766FA27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld */; };
 		4D3766FE27FB0C4D00081E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766FD27FB0C4D00081E7B /* Assets.xcassets */; };
 		4D37670127FB0C4D00081E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3766FF27FB0C4D00081E7B /* LaunchScreen.storyboard */; };
+		4D9927BA2806FA71002A223B /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9927B92806FA71002A223B /* ProfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1D180828006A1F00A2DD4A /* JobTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobTableViewCell.xib; sourceTree = "<group>"; };
+		4D1D180A280078CF00A2DD4A /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		4D1D180D280453A800A2DD4A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4D1D180F280455C200A2DD4A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4D33527C280F0009008106E3 /* ProfielViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfielViewModel.swift; sourceTree = "<group>"; };
+		4D33527F280F0025008106E3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4D335282280F0036008106E3 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		4D3766EE27FB0C4C00081E7B /* Jobs_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobs_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3766F127FB0C4C00081E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D3766F527FB0C4C00081E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D3766F827FB0C4C00081E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D3766FB27FB0C4C00081E7B /* Jobs_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobs_Final.xcdatamodel; sourceTree = "<group>"; };
 		4D3766FD27FB0C4D00081E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D37670027FB0C4D00081E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D37670227FB0C4D00081E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9927B92806FA71002A223B /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1D180C28007B4400A2DD4A /* CelluleView */ = {
+			isa = PBXGroup;
+			children = (
+				4D1D180828006A1F00A2DD4A /* JobTableViewCell.xib */,
+				4D1D180A280078CF00A2DD4A /* JobTableViewCell.swift */,
+			);
+			path = CelluleView;
+			sourceTree = "<group>";
+		};
+		4D33527B280EFFF8008106E3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4D9927B92806FA71002A223B /* ProfilViewController.swift */,
+				4D33527C280F0009008106E3 /* ProfielViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4D33527E280F0013008106E3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				4D1D180F280455C200A2DD4A /* SignInViewController.swift */,
+				4D33527F280F0025008106E3 /* SignInViewModel.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		4D335281280F0029008106E3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4D1D180D280453A800A2DD4A /* SignUpViewController.swift */,
+				4D335282280F0036008106E3 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		4D3766E527FB0C4C00081E7B = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +108,51 @@
 		4D3766F027FB0C4C00081E7B /* Jobs_Final */ = {
 			isa = PBXGroup;
 			children = (
-				4D3766F127FB0C4C00081E7B /* AppDelegate.swift */,
-				4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */,
-				4D3766F527FB0C4C00081E7B /* ViewController.swift */,
-				4D3766F727FB0C4C00081E7B /* Main.storyboard */,
-				4D3766FD27FB0C4D00081E7B /* Assets.xcassets */,
-				4D3766FF27FB0C4D00081E7B /* LaunchScreen.storyboard */,
-				4D37670227FB0C4D00081E7B /* Info.plist */,
+				4D37670C27FB0CD200081E7B /* View */,
+				4D37670927FB0C8000081E7B /* Model */,
+				4D37670827FB0C6800081E7B /* SettingsFiles */,
 				4D3766FA27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld */,
 			);
 			path = Jobs_Final;
+			sourceTree = "<group>";
+		};
+		4D37670827FB0C6800081E7B /* SettingsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4D3766F127FB0C4C00081E7B /* AppDelegate.swift */,
+				4D3766F327FB0C4C00081E7B /* SceneDelegate.swift */,
+				4D37670227FB0C4D00081E7B /* Info.plist */,
+			);
+			path = SettingsFiles;
+			sourceTree = "<group>";
+		};
+		4D37670927FB0C8000081E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D37670A27FB0CA800081E7B /* coreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D37670A27FB0CA800081E7B /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		4D37670C27FB0CD200081E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D3766F727FB0C4C00081E7B /* Main.storyboard */,
+				4D1D180C28007B4400A2DD4A /* CelluleView */,
+				4D33527B280EFFF8008106E3 /* Profile */,
+				4D33527E280F0013008106E3 /* SignIn */,
+				4D335281280F0029008106E3 /* SignUp */,
+				4D3766FD27FB0C4D00081E7B /* Assets.xcassets */,
+				4D3766FF27FB0C4D00081E7B /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1D180928006A1F00A2DD4A /* JobTableViewCell.xib in Resources */,
 				4D37670127FB0C4D00081E7B /* LaunchScreen.storyboard in Resources */,
 				4D3766FE27FB0C4D00081E7B /* Assets.xcassets in Resources */,
 				4D3766F927FB0C4C00081E7B /* Main.storyboard in Resources */,
@@ -141,10 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3766F627FB0C4C00081E7B /* ViewController.swift in Sources */,
+				4D1D180E280453A800A2DD4A /* SignUpViewController.swift in Sources */,
 				4D3766F227FB0C4C00081E7B /* AppDelegate.swift in Sources */,
+				4D335283280F0036008106E3 /* SignUpViewModel.swift in Sources */,
+				4D9927BA2806FA71002A223B /* ProfilViewController.swift in Sources */,
+				4D1D1810280455C200A2DD4A /* SignInViewController.swift in Sources */,
 				4D3766FC27FB0C4C00081E7B /* Jobs_Final.xcdatamodeld in Sources */,
+				4D335280280F0025008106E3 /* SignInViewModel.swift in Sources */,
 				4D3766F427FB0C4C00081E7B /* SceneDelegate.swift in Sources */,
+				4D33527D280F0009008106E3 /* ProfielViewModel.swift in Sources */,
+				4D1D180B280078CF00A2DD4A /* JobTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2MSLYVU6K6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Jobs_Final/Info.plist;
+				INFOPLIST_FILE = Jobs_Final/SettingsFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +415,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2MSLYVU6K6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Jobs_Final/Info.plist;
+				INFOPLIST_FILE = Jobs_Final/SettingsFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
